@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Farm - Sign Up</title>
+    <!-- Core CSS - Include with every page -->
+    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+   <link href="assets/css/style.css" rel="stylesheet" />
+      <link href="assets/css/main-style.css" rel="stylesheet" />
+
+<script src="sample-registration-form-validation.js"></script>
+
+</head>
+
+<body class="body-Login-back">
+
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center logo-margin ">
+              <img src="assets/img/logo1.png" alt=""/>
+                </div>
+            <div class="col-md-4 col-md-offset-4">
+				<div class="alert alert-info">
+                        <center><h3><b>First things first !!</b></h3><center>
+                </div>
+                <div class="login-panel panel panel-default">                  
+                    <div class="panel-heading">
+                        <center><h2 class="panel-title">Please Sign Up !!</h2><center>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" action="signup.php"  name='registration' onSubmit="return formValidation();">
+                            <fieldset>
+
+<div class="form-group">
+                                    <input class="form-control" placeholder="Userid *" name="uid" type="text" size="12" autofocus>
+                                </div>
+
+<div class="form-group">
+                                    <input class="form-control" placeholder="Password *" name="paswd" type="password" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Username *" name="uname" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Contact No. *" name="cnum" type="number" value="">
+                                </div>
+
+<div class="form-group">
+                                    <input class="form-control" placeholder="Address *" name="address" type="text" size="50" autofocus>
+                                </div>
+								<div class="form-group">
+                                    <input class="form-control" placeholder="Email *" name="eid" type="email" value="">
+                                </div>
+
+<div class="form-group"><input type="radio" name="msex" value="Male" /><span>Male</span>
+<input type="radio" name="fsex" value="Female" /><span>Female</span></div>
+
+								
+                                <!-- Change this to a button or input when using this as a form -->
+                                <input type="submit" class="btn btn-lg btn-success btn-block" value="Sign up"/>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
